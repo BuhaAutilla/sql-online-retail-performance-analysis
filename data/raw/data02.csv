@@ -1,0 +1,93 @@
+total_rows
+total_rows|
+----------+
+    541909|
+null_customer_ids
+0
+non_positive_quantity_rows
+non_positive_quantity_rows|
+--------------------------+
+                     10624|
+non_positive_unit_price_rows
+non_positive_unit_price_rows|
+----------------------------+
+                        2521|
+cancelled_invoices
+    COUNT(*) AS cancelled_invoices
+
+#6
+unique_customers 4338
+
+avg_revenue_per_customer 2054.27
+
+avg_orders_per_customer 4.27
+
+top 3 customers by revenue 
+customer_id|total_revenue|
+-----------+-------------+
+14646.0    |    280206.02|
+18102.0    |    259657.30|
+17450.0    |    194550.79|
+
+#7
+top 5 countries by revenue
+country       |total_revenue|
+--------------+-------------+
+United Kingdom|   9025222.08|
+Netherlands   |    285446.34|
+EIRE          |    283453.96|
+Germany       |    228867.14|
+France        |    209715.11|
+
+top 5 countries by number of orders
+country       |total_orders|
+--------------+------------+
+United Kingdom|       18019|
+Germany       |         457|
+France        |         392|
+EIRE          |         288|
+Belgium       |          98|
+top 5 countries by customers
+country       |unique_customers|
+--------------+----------------+
+United Kingdom|            3920|
+Germany       |              94|
+France        |              87|
+Spain         |              30|
+Belgium       |              25|
+
+#8
+one-time vs repeat customer counts
+customer_type     |customer_count|
+------------------+--------------+
+Repeat customers  |          2845|
+One-time customers|          1493|
+
+revenue from one-time vs repeat customers
+customer_type     |customer_count|revenue   |
+------------------+--------------+----------+
+Repeat customers  |          2845|8295096.17|
+One-time customers|          1493| 616311.73|
+#9
+
+total_orders|
+------------+
+       19960|
+
+
+average_order_value|
+-------------------+
+             534.40|
+
+
+total_customers|
+---------------+
+           4338|
+
+unique_products|
+---------------+
+           3921|
+
+unique_countries|
+----------------+
+              38|
