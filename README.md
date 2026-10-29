@@ -7,7 +7,7 @@ This project analyzes online retail transactional data in SQL to identify revenu
 Which customers, products, and markets contribute most to commercial performance, and what business insights can be derived from transactional data?
 
 ## Dataset
-Source: UCI Machine Learning Repository — Online Retail dataset. :contentReference[oaicite:0]{index=0}
+Source: UCI Machine Learning Repository — Online Retail dataset. 
 
 The dataset includes:
 - invoice number
