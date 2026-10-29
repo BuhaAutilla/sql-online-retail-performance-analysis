@@ -24,6 +24,15 @@ The dataset includes:
 - Git & GitHub
 - CSV dataset
 
+## How to Run
+
+1. Download the [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online+retail) and save it as `data/raw/online_retail.csv`.
+2. Create a PostgreSQL database and run `sql/01_create_table.sql` to create the table.
+3. Load the CSV (psql or DBeaver import):
+   `\copy online_retail FROM 'data/raw/online_retail.csv' WITH (FORMAT csv, HEADER true);`
+4. Run the remaining scripts in order, from `sql/02_data_quality_checks.sql` to `sql/09_business_kpis.sql`.
+5. Generate the charts: `pip install pandas matplotlib` then `python generate_sql_project_charts.py` (output saved to `images/`).
+
 ## Project Structure
 - `data/raw/online_retail.csv`
 - `sql/01_create_table.sql`
